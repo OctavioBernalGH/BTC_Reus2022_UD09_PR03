@@ -1,14 +1,14 @@
 package App;
 
-public class libro {
+public class Libro {
 	// Creamos las variables
-	private boolean isbn;
+	private String isbn;
 	private String titulo;
 	private String autor;
 	private int numPaginas;
 	
 	// Creamos el constructor
-	public libro(boolean isbn, String titulo, String autor, int numPaginas) {
+	public Libro(String isbn, String titulo, String autor, int numPaginas) {
 		super();
 		this.isbn = isbn;
 		this.titulo = titulo;
@@ -17,11 +17,11 @@ public class libro {
 	}
 
 	// Creamos los Getters y Setters
-	public boolean isIsbn() {
+	public String isIsbn() {
 		return isbn;
 	}
 
-	public void setIsbn(boolean isbn) {
+	public void setIsbn(String isbn) {
 		this.isbn = isbn;
 	}
 
@@ -53,9 +53,5 @@ public class libro {
 	@Override
 	public String toString() {
 		return "libro [isbn=" + isbn + ", titulo=" + titulo + ", autor=" + autor + ", numPaginas=" + numPaginas + "]";
-	}
-	
-	
-	
-	
+	}	
 }
