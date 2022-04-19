@@ -24,7 +24,7 @@ public class MainApp {
 		if (libro1.getNumPaginas() > libro2.getNumPaginas()) {
 			System.out.println("El libro de " + libro1.getAutor() + " llamado " + libro1.getTitulo() + " tiene mas paginas que " + libro2.getTitulo() + " de " + libro2.getAutor());
 			
-		// Su el libro2 es mas grande que el libro1
+		// Si el libro2 es mas grande que el libro1
 		} else {
 			System.out.println("El libro de " + libro2.getAutor() + " llamado " + libro2.getTitulo() + " tiene mas paginas que " + libro1.getTitulo() + " de " + libro1.getAutor());
 			
